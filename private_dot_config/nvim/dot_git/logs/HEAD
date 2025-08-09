@@ -1,0 +1,25 @@
+0000000000000000000000000000000000000000 c8af597200959c0fc0297c22616b985f8b68948e Garuav Badarkhe <gaurav@puppetvendors.com> 1716039459 +0530	commit (initial): My nvim config
+c8af597200959c0fc0297c22616b985f8b68948e 0000000000000000000000000000000000000000 Garuav Badarkhe <gaurav@puppetvendors.com> 1716039487 +0530	Branch: renamed refs/heads/main to refs/heads/main
+c8af597200959c0fc0297c22616b985f8b68948e c8af597200959c0fc0297c22616b985f8b68948e Garuav Badarkhe <gaurav@puppetvendors.com> 1716039487 +0530	Branch: renamed refs/heads/main to refs/heads/main
+c8af597200959c0fc0297c22616b985f8b68948e a1c87f33aebca67fd9660113b744f1b2956f0ff1 Garuav Badarkhe <gaurav@puppetvendors.com> 1717569818 +0530	commit: Working Config
+a1c87f33aebca67fd9660113b744f1b2956f0ff1 2d6c6d26b6393697bfc35515c35816d56b0b6ac5 Garuav Badarkhe <gaurav@puppetvendors.com> 1721023211 +0530	commit: added telecode file browse, harpoon, barbecue
+2d6c6d26b6393697bfc35515c35816d56b0b6ac5 f2a4a50a44483e5e35d9cdc5d6bb6a82970d3a8e Garuav Badarkhe <gaurav@puppetvendors.com> 1721383601 +0530	commit: Added auto blame
+f2a4a50a44483e5e35d9cdc5d6bb6a82970d3a8e 10ef19e51bb2d034fd6a4deb6946cb653858c610 Garuav Badarkhe <gaurav@puppetvendors.com> 1721383627 +0530	commit: added copilot fix
+10ef19e51bb2d034fd6a4deb6946cb653858c610 09f278151fd6402fa7a2dbf92222ba86d22f34ad Garuav Badarkhe <gaurav@puppetvendors.com> 1721383658 +0530	commit: auto session enabled, minor fix for telescope file browser
+09f278151fd6402fa7a2dbf92222ba86d22f34ad 9fa86c18c0f356c88fb993761a0062e2a4f382a8 Garuav Badarkhe <gaurav@puppetvendors.com> 1726047482 +0530	commit: Ejs Support, No Mouse, Move across panes, Better utils..etc
+9fa86c18c0f356c88fb993761a0062e2a4f382a8 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731139352 +0530	commit: current fav setup
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731139366 +0530	checkout: moving from main to lsp-zero-config
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731139388 +0530	checkout: moving from lsp-zero-config to main
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731139399 +0530	checkout: moving from main to lsp-zero-config
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731139796 +0530	checkout: moving from lsp-zero-config to main
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731140178 +0530	checkout: moving from main to lsp-zero-config
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 3042e85c55b27bae5c5c3cf9bda14734a736a3fc Garuav Badarkhe <gaurav@puppetvendors.com> 1731140266 +0530	checkout: moving from lsp-zero-config to main
+3042e85c55b27bae5c5c3cf9bda14734a736a3fc 9fa86c18c0f356c88fb993761a0062e2a4f382a8 Garuav Badarkhe <gaurav@puppetvendors.com> 1731152013 +0530	reset: moving to HEAD~1
+9fa86c18c0f356c88fb993761a0062e2a4f382a8 3069176e2d7e66895484d42006fc3fc3478305ac Garuav Badarkhe <gaurav@puppetvendors.com> 1732274668 +0530	commit: no copilot, better lsp
+3069176e2d7e66895484d42006fc3fc3478305ac 161dc4f1448d9dee45f037a112bee8817971c291 Garuav Badarkhe <gaurav@puppetvendors.com> 1742848592 +0530	commit: perfect setup
+161dc4f1448d9dee45f037a112bee8817971c291 5a81920e942d59ce06455083c1475a0f315c5368 Garuav Badarkhe <gaurav@puppetvendors.com> 1742848745 +0530	commit (merge): Merge branch 'main' of https://github.com/gauravbadarkhe/nvim-config
+5a81920e942d59ce06455083c1475a0f315c5368 9f703525824b90d6f0f9ef9e3a84f05375f2ab95 Garuav Badarkhe <gaurav@puppetvendors.com> 1742848753 +0530	revert: Revert "perfect setup"
+9f703525824b90d6f0f9ef9e3a84f05375f2ab95 161dc4f1448d9dee45f037a112bee8817971c291 Garuav Badarkhe <gaurav@puppetvendors.com> 1742849000 +0530	checkout: moving from main to 161dc4f
+161dc4f1448d9dee45f037a112bee8817971c291 161dc4f1448d9dee45f037a112bee8817971c291 Garuav Badarkhe <gaurav@puppetvendors.com> 1742849031 +0530	checkout: moving from 161dc4f1448d9dee45f037a112bee8817971c291 to perfect-setup
+161dc4f1448d9dee45f037a112bee8817971c291 8c74f58f024a1d2eaff5a834bba83fe1d5169ade Garuav Badarkhe <gaurav@puppetvendors.com> 1745133142 +0530	commit: added flag to handle light and dark theme
+8c74f58f024a1d2eaff5a834bba83fe1d5169ade e9bd8cde954948d3cf103958dd5227f3892f64a2 Garuav Badarkhe <gaurav@puppetvendors.com> 1750326877 +0530	commit: dist ignored from grep and file serch
