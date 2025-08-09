@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# List of workspaces
+workspaces=("pv" "learning" "personal")
+
+# Prompt to select workspace
+if [[ $# -eq 0 ]]; then
+    selected_workspace=$(printf "%s\n" "${workspaces[@]}" | fzf --prompt="Select workspace: ")
+    [[ -z $selected_workspace ]] && exit 0
+else
+    selected_workspace=$1
+fi
+
+# Assign directories based on selected workspace
+case "$selected_workspace" in
+    pv)
+        dirs=(~/LocalProjects/puppetvendors-work/)
+        ;;
+    learning)
+        dirs=(~/LocalProjects/learning/)
+        ;;
+    personal)
+        dirs=(~/LocalProjects/personal/ ~/.config)
+        ;;
+    *)
+        echo "Invalid workspace"
+        exit 1
+        ;;
+esac
+
+# Select directory
+selected=$(find "${dirs[@]}" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | fzf --prompt="Select project: ")
+[[ -z $selected ]] && exit 0
+
+# Generate session name
+selected_name="${selected_workspace}_$(basename "$selected" | tr . _)"
+tmux_running=$(pgrep tmux)
+
+# If not in tmux and no tmux running
+if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
+    tmux new-session -s "$selected_name" -c "$selected"
+    exit 0
+fi
+
+# Create session if it doesn't exist
+if ! tmux has-session -t="$selected_name" 2>/dev/null; then
+    tmux new-session -ds "$selected_name" -c "$selected"
+fi
+
+# Attach or switch
+if [[ -z $TMUX ]]; then
+    tmux attach-session -t "$selected_name"
+else
+    tmux switch-client -t "$selected_name"
+fi
