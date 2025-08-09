@@ -107,7 +107,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias tmux-sessionizer="/usr/local/bin/tmux-sessionizer"
+alias tmux-sessionizer="~/bin/tmux-sessionizer"
+alias killport="~/bin/killport"
+
+
 
 alias kill_anything="ps aux | grep -v grep | fzf | awk '{print $2}' | xargs kill"
 
